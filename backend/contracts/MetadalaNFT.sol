@@ -37,7 +37,7 @@ contract Metadala is ERC721URIStorage, VRFConsumerBaseV2, Ownable {
 
     // Events
     event CreatedRandomSVG(uint256 indexed tokenId, string tokenURI);
-    event CreatedUnfinishedRandomSVG(uint256 indexed tokenId, uint256 randomNumber);
+    event CreatedUnfinishedMetadala(uint256 indexed tokenId, uint256 randomNumber);
     event requestedRandomSVG(bytes32 indexed requestId, uint256 indexed tokenId); 
 
     constructor(
